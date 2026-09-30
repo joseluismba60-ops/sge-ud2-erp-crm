@@ -88,7 +88,7 @@ Requisitos: Ninguno (100% Cloud). [Fuente: https://help.salesforce.com/s/article
 
 ## 4. Fe de erratas del tema 2
 
-##1. El desarrollador real de SuiteCRM##
+**1. El desarrollador real de SuiteCRM##
 * **Que dice el tema:** El documento afirma en su comparativa de soluciones que SuiteCRM esta "Desarrollado por la comunidad SugarCRM"[cite: 1].
 * **A dia de hoy lo correcto es:** Esta informacion es inexacta. SuiteCRM fue creado y es mantenido oficialmente por la empresa **SalesAgility**. El proyecto surgio como un *fork* (bifurcacion) independiente porque la empresa SugarCRM decidio abandonar el modelo de codigo abierto y cerrar su edicion comunitaria en 2014.
 * **Fuente:** https://suitecrm.com/about-us/
