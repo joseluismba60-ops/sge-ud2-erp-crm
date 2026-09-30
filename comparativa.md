@@ -97,3 +97,29 @@ Requisitos: Ninguno (100% Cloud). [Fuente: https://help.salesforce.com/s/article
 * **Que dice el tema:** El PDF asegura que Fat Free CRM es el "CRM mas valorado en GitHub por su comunidad activa"[Cite: 1].
 * **A dia de hoy lo correcto es:** Este dato es desactualizado. Fat Free CRM es hoy en dia un proyecto con una comunidad muy reducida (ronda las 3.500 estrellas). Soluciones de codigo abierto que incluyen CRM, como Odoo, superan las 36.000 estrellas, y ERPNext supera las 18.00, teniendo comunidades de desarrollo infinitamente mas activas.
 * **Fuente:** https://github.com/fatfreecrm/fat_free_crm
+
+## 5. Matriz de decisión y recomendación (Impresiones Rápidas)
+
+Para la imprenta digital, las opciones evaluadas son Odoo Community (ERP+CRM Libre), ERPNext (ERP Libre) y Microsoft Dynamics 365 (Propietario).
+
+**Justificación de puntuaciones (1 a 5):**
+1.  **Costes (25%):** Odoo y ERPNext (5) no tienen coste de licencia, ideal para una imprenta con presupuesto ajustado. Dynamics 365 (2) requiere licencias mensuales costosas por usuario.
+2.  **Inventario (papel/tinta) (20%):** Dynamics (5) es extremadamente robusto. Odoo y ERPNext (4) cumplen perfectamente, permitiendo gestionar mermas de papel y lotes de tinta con configuraciones nativas.
+3.  **Pedidos Web (15%):** Odoo (5) destaca por tener un módulo de e-commerce integrado de forma nativa que conecta la web con producción. ERPNext (4) también lo incluye, mientras que Dynamics (3) depende más de integraciones externas.
+4.  **Usabilidad (15%):** Odoo y ERPNext (4) tienen interfaces modernas y amigables. Dynamics (3) es muy potente pero tiene una curva de aprendizaje más pronunciada para los operarios de la imprenta.
+5.  **Gestión B2B/Clientes (15%):** Dynamics (5) es líder indiscutible en gestión de grandes cuentas corporativas. Odoo (4) es muy completo y ERPNext (3) es algo más básico en sus funciones de CRM puro.
+6.  **Soporte (10%):** Dynamics (5) ofrece SLA (Acuerdos de Nivel de Servicio) empresarial garantizado. Odoo y ERPNext en sus versiones libres (3) dependen de los foros de la comunidad o de contratar a un *partner* local.
+
+**Totales ponderados:**
+*   **Odoo Community:** 4.30 / 5
+*   **ERPNext:** 4.00 / 5
+*   **Dynamics 365:** 3.65 / 5
+
+**Recomendación final**
+Se recomienda implantar **Odoo Community**. Para "Impresiones Rápidas", esta solución permite integrar en un mismo sistema la recepción de pedidos por web, la gestión de la cartera de clientes y el estricto control de inventario del obrador (papel y consumibles) sin asumir un alto coste mensual en licencias.
+
+**Análisis de Riesgos:**
+*   **Coste Total:** Aunque la licencia es gratuita, el coste de implantación no será cero. Habrá que invertir en un consultor técnico para adaptar los módulos de fabricación a los procesos específicos de la imprenta.
+*   **Dependencia del proveedor (Vendor Lock-in):** Riesgo bajo. Al ser código abierto, la imprenta es dueña absoluta de sus datos y de la infraestructura, pudiendo cambiar de servicio de mantenimiento informático cuando lo desee.
+*   **Soporte:** Riesgo moderado/alto. Al utilizar la versión *Community*, si el servidor se cae en un pico de pedidos, no hay una línea directa con el fabricante. Es obligatorio subcontratar el mantenimiento a un tercero.
+*   **Migración futura:** Riesgo moderado. Si la imprenta crece mucho y decide pasar a Odoo Enterprise o a otro software propietario, migrar las adaptaciones a medida hechas en el código abierto puede ser técnicamente complejo.
