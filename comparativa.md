@@ -86,3 +86,14 @@ Módulos principales: Sales Cloud, Service Cloud, Marketing Cloud. [Fuente: http
 
 Requisitos: Ninguno (100% Cloud). [Fuente: https://help.salesforce.com/s/articleView?id=xcloud.getstart_browsers_sfx.htm&type=5]
 
+## 4. Fe de erratas del tema 2
+
+##1. El desarrollador real de SuiteCRM##
+* **Que dice el tema:** El documento afirma en su comparativa de soluciones que SuiteCRM esta "Desarrollado por la comunidad SugarCRM"[cite: 1].
+* **A dia de hoy lo correcto es:** Esta informacion es inexacta. SuiteCRM fue creado y es mantenido oficialmente por la empresa **SalesAgility**. El proyecto surgio como un *fork* (bifurcacion) independiente porque la empresa SugarCRM decidio abandonar el modelo de codigo abierto y cerrar su edicion comunitaria en 2014.
+* **Fuente:** https://suitecrm.com/about-us/
+
+**2. La popularidad de Fat Free CRM en GitHub**
+* **Que dice el tema:** El PDF asegura que Fat Free CRM es el "CRM mas valorado en GitHub por su comunidad activa"[Cite: 1].
+* **A dia de hoy lo correcto es:** Este dato es desactualizado. Fat Free CRM es hoy en dia un proyecto con una comunidad muy reducida (ronda las 3.500 estrellas). Soluciones de codigo abierto que incluyen CRM, como Odoo, superan las 36.000 estrellas, y ERPNext supera las 18.00, teniendo comunidades de desarrollo infinitamente mas activas.
+* **Fuente:** https://github.com/fatfreecrm/fat_free_crm
