@@ -22,3 +22,67 @@ Community vs Enterprise: El negocio del riesgo
 Si cualquiera puede descargar el código fuente sin pagar, empresas como Red Hat generan miles de millones separando a los usuarios según el nivel de riesgo que están dispuestos a asumir.
 Ediciones Community: Son el campo de pruebas. Obtienes el software gratis y con las funciones más novedosas, pero eres tu propio mecánico. Si tu servidor falla un viernes por la tarde, tu única línea de soporte es buscar en foros de internet y esperar que alguien te ayude gratis. Pagas con tu tiempo y asumes el riesgo.
 Ediciones Enterprise: Es un seguro a todo riesgo corporativo. Los bancos, hospitales o ministerios no pueden depender de foros si su base de datos colapsa. No pagan por el código, pagan por tranquilidad. Compran una suscripción que les garantiza una versión del software mucho más estable, parches de seguridad prioritarios, indemnidad legal por si hay problemas de patentes, y un contrato que obliga a un equipo de ingenieros a responder al teléfono 24/7 si algo sale mal.
+
+## 3. Fichas tecnicas ERP y CRM
+Fecha de consulta: 29 de septiembre
+
+3.1. ERP Libre: Odoo Community
+Licencia exacta: GNU LGPL v3. [Fuente: https://github.com/odoo/odoo/blob/master/LICENSE]
+
+Versión vigente: Odoo 19. [Fuente:https://www.odoo.com/es_ES/page/release-notes]
+
+Lenguaje del servidor: Python y JavaScript. [Fuente: https://github.com/odoo/odoo ]
+
+SGBD compatibles: PostgreSQL. [Fuente: https://www.odoo.com/documentation/master/administration/on_premise.html]
+
+Modalidad: Instalación local y Nube. [Fuente: https://www.odoo.com/es_ES/page/editions]
+
+Módulos principales: Ventas, Inventario, Fabricación, CRM, Sitio Web. [Fuente: https://apps.odoo.com/apps]
+
+Requisitos (servidor): Linux, Python 3.10+, PostgreSQL 13+. [Fuente: https://www.odoo.com/documentation/master/administration/on_premise.html]
+
+3.2. ERP Propietario: Microsoft Dynamics 365
+Licencia exacta: Propietario (Suscripción comercial). [Fuente: https://www.microsoft.com/es-es/dynamics-365/pricing-overview]
+
+Versión vigente: Release Wave 2 de 2026. [Fuente: https://learn.microsoft.com/en-us/dynamics365/release-plan/2025wave2/]
+
+Lenguaje del servidor: AL y C#. [Fuente: https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/developer/devenv-dev-overview]
+
+SGBD compatibles: Microsoft SQL Server y Azure SQL. [Fuente: https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/deployment/system-]
+
+Modalidad: Nube (Azure) e híbrida. [Fuente: https://www.microsoft.com/es-es/dynamics-365/products/business-central]
+
+Módulos principales: Finanzas, Cadena de suministro, Ventas. [Fuente: https://www.microsoft.com/es-es/dynamics-365]
+
+Requisitos: Navegador web moderno o ecosistema Windows Server para local. [Fuente: https://www.google.com/search?q=https://learn.microsoft.com/en-us/dynamics365/business-central/dev-itpro/deployment/system-requirements]
+
+3.3. CRM Libre: SuiteCRM
+Licencia exacta: GNU AGPL v3. [Fuente: https://www.google.com/search?q=https://github.com/salesagility/SuiteCRM/blob/master/LICENSE.txt]
+
+Versión vigente: SuiteCRM 8.x. [Fuente: https://docs.suitecrm.com/8.x/admin/releases/]
+
+Lenguaje del servidor: PHP. [Fuente: https://www.google.com/search?q=https://docs.suitecrm.com/8.x/admin/installation-guide/system-requirements/]
+
+SGBD compatibles: MySQL, MariaDB y SQL Server. [Fuente: https://docs.suitecrm.com/8.x/admin/installation-guide/system-requirements/]
+
+Modalidad: Local y Nube. [Fuente: https://suitecrm.com/]
+
+Módulos principales: Cuentas, Contactos, Oportunidades, Campañas. [Fuente: https://suitecrm.com/what-is-suitecrm/]
+
+Requisitos: Servidor web, PHP 8.x, Base de datos compatible. [Fuente: https://docs.suitecrm.com/8.x/admin/installation-guide/system-requirements/]
+
+3.4. CRM Propietario: Salesforce
+Licencia exacta: Propietario (SaaS). [Fuente: https://www.salesforce.com/sales/pricing/]
+
+Versión vigente: Winter '27. [Fuente: https://help.salesforce.com/s/articleView?id=release-notes.salesforce_release_notes.htm&release=264&type=5]
+
+Lenguaje del servidor: Apex. [Fuente: https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_intro_what_is_apex.htm]
+
+SGBD compatibles: Arquitectura multitenant propietaria basada en Oracle. [Fuente: https://architect.salesforce.com/fundamentals/architecture-landscape]
+
+Modalidad: Exclusivamente Nube. [Fuente: https://www.salesforce.com/es/]
+
+Módulos principales: Sales Cloud, Service Cloud, Marketing Cloud. [Fuente: https://www.salesforce.com/es/products/]
+
+Requisitos: Ninguno (100% Cloud). [Fuente: https://help.salesforce.com/s/articleView?id=xcloud.getstart_browsers_sfx.htm&type=5]
+
